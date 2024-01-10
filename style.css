@@ -6,12 +6,21 @@
 
 body {
     background: #121214;
+    padding: 72px 184px;
+}
+
+main {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 370px);
+    gap: 48px 60px;
 }
 
 .card {
     background: #202024;
     border: 2px solid #323238;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .card h2 {
